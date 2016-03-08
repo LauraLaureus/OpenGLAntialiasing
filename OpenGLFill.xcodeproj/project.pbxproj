@@ -28,6 +28,7 @@
 		2728ECC81C8EC9C80073A6AE /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = OpenGLFill/main.c; sourceTree = "<group>"; };
 		2728ECC91C8EC9C80073A6AE /* View.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = View.c; path = OpenGLFill/View.c; sourceTree = "<group>"; };
 		2728ECCA1C8EC9C80073A6AE /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View.h; path = OpenGLFill/View.h; sourceTree = "<group>"; };
+		2728ECCD1C8ECB340073A6AE /* ScreenShot */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ScreenShot; path = OpenGLFill/ScreenShot; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		2728ECB31C8EC8640073A6AE = {
 			isa = PBXGroup;
 			children = (
+				2728ECCD1C8ECB340073A6AE /* ScreenShot */,
 				2728ECC81C8EC9C80073A6AE /* main.c */,
 				2728ECC91C8EC9C80073A6AE /* View.c */,
 				2728ECCA1C8EC9C80073A6AE /* View.h */,
