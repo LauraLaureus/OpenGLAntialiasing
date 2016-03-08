@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2728ECC01C8EC8640073A6AE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2728ECBF1C8EC8640073A6AE /* main.c */; };
+		2728ECCB1C8EC9C80073A6AE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2728ECC81C8EC9C80073A6AE /* main.c */; };
+		2728ECCC1C8EC9C80073A6AE /* View.c in Sources */ = {isa = PBXBuildFile; fileRef = 2728ECC91C8EC9C80073A6AE /* View.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		2728ECBC1C8EC8640073A6AE /* OpenGLFill */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGLFill; sourceTree = BUILT_PRODUCTS_DIR; };
-		2728ECBF1C8EC8640073A6AE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2728ECC81C8EC9C80073A6AE /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = OpenGLFill/main.c; sourceTree = "<group>"; };
+		2728ECC91C8EC9C80073A6AE /* View.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = View.c; path = OpenGLFill/View.c; sourceTree = "<group>"; };
+		2728ECCA1C8EC9C80073A6AE /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View.h; path = OpenGLFill/View.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,9 @@
 		2728ECB31C8EC8640073A6AE = {
 			isa = PBXGroup;
 			children = (
-				2728ECBE1C8EC8640073A6AE /* OpenGLFill */,
+				2728ECC81C8EC9C80073A6AE /* main.c */,
+				2728ECC91C8EC9C80073A6AE /* View.c */,
+				2728ECCA1C8EC9C80073A6AE /* View.h */,
 				2728ECBD1C8EC8640073A6AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +57,6 @@
 				2728ECBC1C8EC8640073A6AE /* OpenGLFill */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2728ECBE1C8EC8640073A6AE /* OpenGLFill */ = {
-			isa = PBXGroup;
-			children = (
-				2728ECBF1C8EC8640073A6AE /* main.c */,
-			);
-			path = OpenGLFill;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +115,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2728ECC01C8EC8640073A6AE /* main.c in Sources */,
+				2728ECCC1C8EC9C80073A6AE /* View.c in Sources */,
+				2728ECCB1C8EC9C80073A6AE /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
